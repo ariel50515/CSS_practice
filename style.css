@@ -1,0 +1,788 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background: #faf8ed;
+}
+
+.nav_Top {
+    max-width: 1200px;
+    display: flex;
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav_Right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.nav_Right a,
+.nav_Left a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #562608;
+}
+
+.nav_Left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.logo_img1 {
+    width: 100px;
+    padding: 20px 0;
+}
+
+.topbanner2_Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topbanner2_img {
+    width: 50%;
+
+}
+
+/* InfCard  Start */
+.infcard_bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content_Infcard {
+    width: 80%;
+    margin-top: 50px;
+}
+
+.infcard_Wrapper {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 30px;
+}
+
+.infcard_img {
+    width: 45%;
+}
+
+.infcard_Description {
+    width: 100%;
+    padding: 0 30px;
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    color: #562608;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    line-height: 35px;
+}
+
+.infcard_Description:hover {
+    text-decoration: none;
+}
+
+.inf_Btn {
+    border-radius: 60px;
+    background-color: #fff;
+    border: 1.5px solid#562608;
+    font-size: 30px;
+    font-weight: 600;
+    width: 400px;
+    height: 70px;
+    margin: 60px 0 60px 0;
+    color: #562608;
+}
+
+/* infcard End */
+.prayingboy_Wapper {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.prayingboy_img {
+    padding: 0%;
+    width: 80%;
+}
+.products_Post {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+}
+
+.products_Post1 p {
+    position: absolute;
+    left: 39%;
+    top: 25px;
+    z-index: 2;
+    font-size: 40px;
+    color: #562608;
+    font-weight: 900;
+}
+
+.products_Post1,.products_Post2 {
+    position: relative;
+}
+
+.products_Post2 p {
+    position: absolute;
+    left: 42%;
+    top: 80px;
+    z-index: 2;
+    font-size: 25px;
+    color: #562608;
+    font-weight: 500;
+}
+
+.prayingboy_Wapper::after {
+    content: "";
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: #faf8ed;
+    display: block;
+    position: absolute;
+    bottom: -35%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    position: absolute;
+}
+/* Product Strart */
+.productcard_bg {
+    background: url(./images/bg-03.jpeg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 220px;
+}
+
+.content_Productcard {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #faf8ed;
+    padding-bottom: 50px;
+    margin: 50px 0;
+}
+
+.productcard_Wrapper {
+    width: 100%;
+}
+
+.productcard_img {
+    width: 100%;
+}
+
+.takeoutcard_Pirice {
+    height: 200px;
+}
+
+.productcard_Title1 {
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    padding: 20px 30px 0;
+    font-size: 35px;
+    color: #562608;
+}
+
+.productcard_Title2 {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    padding: 10px 30px 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #562608;
+    letter-spacing: 5px;
+}
+
+.line {
+    border-bottom: 4px solid #56260833;
+    width: 90px;
+    padding: 10px;
+    margin: auto;
+}
+
+.productcard_Description {
+    color: #562608;
+    width: 100%;
+    height: 400px;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 35px;
+}
+
+.productcard_Pirice {
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    color: #562608;
+    font-size: 22px;
+    padding: 30px;
+}
+
+li {
+    padding: 5px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.product_Btn {
+    background-color: #562608;
+    border-radius: 60px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 25px;
+    border-style: none;
+    margin: 30px 0 50px 0;
+    letter-spacing: 5px;
+}
+
+/* Product End */
+
+
+
+/* Online Start */
+.content_onlineCard {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    background-color: #faf8ed;
+    margin: 40px 0 90px 0;
+}
+
+.onlinecard_Wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.onlinecard_img {
+    width: 50%;
+}
+
+.onlinecard_Description {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 500;
+    color: #562608;
+    text-align: center;
+    padding: 60px;
+}
+
+.online_Btn {
+    background-color: #fa8500;
+    color: #fff;
+    width: 600px;
+    height: 140px;
+    border-radius: 80px;
+    border-style: none;
+    font-size: 40px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Online End */
+
+.angryboy_Wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    position: relative;
+    z-index: 1;
+}
+
+.angryboy_img {
+    width: 40%;
+}
+
+/* angryboy */
+
+/* Takeout_inf */
+.takeout_Post {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+}
+
+.takeout_Post1 p {
+    position: absolute;
+    left: 39%;
+    top: 25px;
+    z-index: 2;
+    font-size: 40px;
+    color: #562608;
+    font-weight: 900;
+}
+
+.takeout_Post1,
+.takeout_Post2 {
+    position: relative;
+}
+
+.takeout_Post2 p {
+    position: absolute;
+    left: 42%;
+    top: 80px;
+    z-index: 2;
+    font-size: 25px;
+    color: #562608;
+    font-weight: 500;
+}
+
+.angryboy_img {
+    width: 70%;
+    padding: 40px 0 0 0;
+}
+
+.angryboy_Wapper {
+    /* position: relative; */
+    z-index: 1;
+}
+
+.angryboy_Wapper::after {
+    content: "";
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: #faf8ed;
+    display: block;
+    position: absolute;
+    bottom: -35%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    position: absolute;
+}
+
+/* Takeout Start  */
+.takeoutcard_bg {
+    width: 100%;
+    background: url(./images/bg-02.jpeg);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 180px 0 60px 0;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.content_takeoutCard {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 50px 0;
+    position: relative;
+}
+
+.content_takeoutCard::after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 140px;
+    position: absolute;
+    top: -50px;
+    right: 17px;
+    z-index: 99;
+    background: url(./images/label-maple-diner.svg) no-repeat;
+}
+
+/* 小卡上的標籤 */
+
+.tackoutcard_Wrapper {
+    width: 100%;
+    background-color: #fff;
+}
+
+.takeoutcard_img {
+    width: 100%;
+}
+
+.takeoutcard_Title1 {
+    width: 100%;
+    padding: 40px 0 40px 0;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    color: #562608;
+}
+
+.takeoutcard_Title2 {
+    width: 100%;
+    height: 170px;
+    text-align: center;
+    padding: 70px 0;
+    font-size: 28px;
+    font-weight: 800;
+    color: #562608;
+}
+
+.takeoutcard_Pirice {
+    color: #562608;
+    padding-top: 50px;
+    height: 300px;
+    font-size: 22px;
+}
+
+.take_line {
+    border-bottom: 4px solid #56260833;
+    width: 90px;
+}
+
+.takeout_Btn {
+    background-color: #562608;
+    border-radius: 60px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border-style: none;
+    padding: 30px;
+    margin: 40px 0 50px 0;
+    letter-spacing: 5px;
+}
+
+/* Takeout End */
+
+/* storeCard Start */
+.storecard_p1 {
+    text-align: center;
+    color: #562608;
+    font-size: 33px;
+    font-weight: 900;
+    padding-top: 80px;
+}
+
+.storecard_p2 {
+    text-align: center;
+    color: #562608;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.storecard_bg {
+    width: 100%;
+    background: #faf8ed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.content_Storecard {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.storecard_Wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.storecard_img {
+    width: 100%;
+}
+
+.storecard_Title {
+    width: 100%;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #562608;
+}
+
+.storecard_Description {
+    font-size: 20px;
+    font-weight: 500;
+    color: #562608;
+}
+
+.store_Btn {
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1.5px solid#562608;
+    border-radius: 60px;
+    font-size: 30px;
+    width: 350px;
+    height: 90px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0 70px 0;
+}
+
+/* storeCard End */
+
+/* footer Start */
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+.topbtn_Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top_Btn {
+    font-size: 60px;
+    font-weight: 600;
+    list-style: none;
+    background-color: transparent;
+    border: none;
+    color: #562608;
+    margin-top: 50px;
+}
+
+.topbtn_img {
+    width: 30%;
+}
+
+.footer_Line {
+    border-bottom: 5px solid #421c0350;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.footer_Line2 {
+    border-bottom: 2px solid #421c0350;
+    width: 100%;
+}
+
+.logo_Wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.logo_img {
+    width: 80%;
+    margin: 60px 0;
+}
+
+.footer_Text {
+    color: #562608;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 50px 0 30px 0;
+}
+
+.contact_Btn {
+    background-color: #562608;
+    border-radius: 60px;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    width: 500px;
+    height: 90px;
+    border-style: none;
+    margin: 30px 0 50px 0;
+}
+
+.footertop_Text {
+    color: #562608;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 50px 0 30px 0;
+}
+
+.footermiddle_Text {
+    color: #562608;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.footerbot {
+    color: #562608;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 50px 0 30px 0;
+}
+
+.nav_Bot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #562608;
+    width: 100%;
+}
+
+.menuleft_Btn {
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products_Btn {
+    background-color: transparent;
+    border: none;
+    color: #faf8ed;
+    font-size: 30px;
+    border-bottom: 1px solid #faf8ed87;
+}
+
+.hamburger_img {
+    height: 30%;
+    padding: 0%;
+}
+
+.boy_Wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.boy_img {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boy2_img {
+    width: 60%;
+    display: none;
+}
+
+.boy3_Wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.boy3_img {
+    width: 50%;
+}
+
+img {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.nav_Wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav1 {
+    width: 5%;
+    margin: 20px;
+}
+
+.nav2 {
+    width: 3%;
+    margin: 20px;
+}
+
+.nav3 {
+    width: 6%;
+    margin: 20px;
+}
+
+@media screen and (min-width:1000px) {
+    .nav_Top {
+        display: flex;
+    }
+
+    .nav_Bot {
+        display: none;
+    }
+
+    .takeoutcard_bg {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .content_takeoutCard {
+        width: 33.333%;
+    }
+
+    .productcard_bg {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .content_Productcard {
+        width: 33.333%;
+    }
+
+    .boy_img {
+        width: 30%;
+    }
+
+    .boy_img img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .boy2_img {
+        width: 30%;
+        display: block;
+    }
+
+    .boy2_img img {
+        width: 100%;
+        object-fit: cover;
+    }
+}
